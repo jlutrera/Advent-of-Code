@@ -27,7 +27,7 @@ Código
 - Cada carpeta corresponde a un **año**.
 - Dentro de cada año, hay subcarpetas por **día** (`D01`, `D02`, ...).
 - En cada día encontrarás:
-  - Código fuente de las soluciones (C/C++, Python, etc.).
+  - Código fuente de las soluciones (hechos en C, C++ y Python).
   - Un `subject.txt` con la descripción del problema y notas de implementación.
   - Un `input.txt`con la entrada propuesta en el problema.
 
@@ -35,16 +35,13 @@ Código
 
 ## 🚀 Cómo ejecutar las soluciones
 
-
 Ejemplo en C:
-
 ```bash
 gcc reto1.c -o reto1
 ./reto1 < input.txt
 ```
 
 Ejemplo en C++:
-
 ```bash
 g++ reto1.cpp -o reto1
 ./reto1 < input.txt
@@ -54,7 +51,3 @@ Ejemplo en Python:
 ```bash
 python3 reto1.py < input.txt
 ```
-- Mejorar la claridad y accesibilidad de las soluciones con Markdown y comentarios.
-
-- Compartir aprendizajes con otros programadores.
-
